@@ -2,6 +2,10 @@ body {
   margin: auto;
 }
 
+h1 {
+   text-align: center;
+}
+
 .chat-container {
   background-color: #120e0e;
   border: 1px solid #ccc;
