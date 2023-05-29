@@ -1,0 +1,38 @@
+body {
+  margin: auto;
+}
+
+.chat-container {
+  background-color: #120e0e;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: flex-end;
+  max-width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.outgoing {
+  background-color: #98289c;
+  align-self: flex-end;
+}
+
+.incoming {
+  background-color: #06d71c;
+  align-self: flex-start;
+}
+
+.time {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+p {
+  color: white;
+}
