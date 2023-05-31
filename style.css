@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-right: 100px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  margin: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+body {
+  margin: auto;
+  background-color: #120e0e;
+}
+
+.chat-container {
+  background-color: #120e0e;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: flex-end;
+  max-width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.outgoing {
+  background-color: #98289c;
+  align-self: flex-end;
+}
+
+.incoming {
+  background-color: #06d71c;
+  align-self: flex-start;
+}
+
+.time {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+p {
+  color: white;
+}
+
+.pare {
+  display: block;
+  margin: auto;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 60px;
+	text-align: center;
+}
+
+.VSG {
+  color: #fff;
+}
+
+.origem {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: baseline;
+}
