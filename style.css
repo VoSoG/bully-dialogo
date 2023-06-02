@@ -1,3 +1,14 @@
+#cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+}
+
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -32,61 +43,77 @@
 .menu a {
   margin: 25px;
   text-decoration: none;
-  color: #fff;
+  color: aliceblue;
   font-size: 16px;
   text-transform: uppercase;
 }
 
+
+
 body {
-  margin: auto;
-  background-color: #120e0e;
+  background-color: #060404;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
 
 .chat-container {
-  background-color: #120e0e;
-  border: 1px solid #ccc;
-  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .message {
   display: flex;
   align-items: flex-end;
-  max-width: 80%;
-  padding: 10px;
   margin-bottom: 10px;
-  border-radius: 10px;
+}
+
+.message-text {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px 15px;
+  max-width: 70%;
+}
+
+.message-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .outgoing {
-  background-color: #98289c;
-  align-self: flex-end;
+  flex-direction: row-reverse;
 }
 
 .incoming {
-  background-color: #06d71c;
-  align-self: flex-start;
+  flex-direction: row;
 }
 
 .time {
   font-size: 12px;
-  color: #fff;
-  margin-left: 5px;
+  color: #999;
+  margin-top: 5px;
 }
 
-p {
+
+.midia {
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.pare {
-  display: block;
-  margin: auto;
+.footer .copy-symbol {
+  font-size: 18px;
+  margin-right: 5px;
 }
-
 
 footer {
+  margin: 0;
+  padding: o;
 	background-color: #333;
 	color: #fff;
-	padding: 60px;
 	text-align: center;
 }
 
@@ -97,6 +124,6 @@ footer {
 .origem {
   display: flex;
   padding: 20px;
-  justify-content: space-around;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
 }
